@@ -8,8 +8,8 @@ numero_secreto = 175
 puts "Escolhido"
 puts "\n\n\n"
 
-for dedos in 1..3
-    puts "Tentativa " + dedos.to_s
+for tentativa in 1..3
+    puts "Tentativa " + tentativa.to_s
     chute = gets
     puts "Será que você acertou?" + chute
 
