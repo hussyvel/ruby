@@ -7,9 +7,9 @@ puts "Começaremos o jogo para você, " + nome
 numero_secreto = 175
 puts "Escolhido"
 puts "\n\n\n"
-
-for tentativa in 1..3
-    puts "Tentativa " + tentativa.to_s
+limite_de_tentativas = 5
+for tentativa in 1..limite_de_tentativas
+    puts "Tentativa " + tentativa.to_s + " de " + limite_de_tentativas.to_s
     chute = gets
     puts "Será que você acertou?" + chute
 
@@ -25,4 +25,5 @@ for tentativa in 1..3
             puts ("O número secreto é menor")
         end
     end
+    puts("fim de jogo")
 end
