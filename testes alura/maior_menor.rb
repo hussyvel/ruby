@@ -36,7 +36,7 @@ def verifica_se_acertou numero_secreto, chute
             puts ("O número secreto é menor")
             
         end
-        false
+    false
 end    
 
 da_boas_vindas
