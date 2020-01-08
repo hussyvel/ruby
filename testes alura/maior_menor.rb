@@ -6,14 +6,14 @@ def da_boas_vindas
     puts "Começaremos o jogo para você, " + nome
 end
 
-def sorteia_numero_secreto
+def sorteio
     numero = 175
     puts "Escolhido"
     puts "\n\n\n"
     return numero
 end
 
-def pede_um_numero(tentativa, limite_de_tentativas)
+def pede_um_numero tentativa, limite_de_tentativas
     puts "\n\n\n\n"
     puts "Tentativa " + tentativa.to_s + " de " + limite_de_tentativas.to_s
     puts "Entre com o número: "
@@ -21,7 +21,8 @@ def pede_um_numero(tentativa, limite_de_tentativas)
     puts "Será que você acertou? " + chute
     chute.to_i
 end
-def verifica_se_acertou(numero_secreto, chute)
+
+def verifica_se_acertou numero_secreto, chute
     acertou = numero_secreto == chute
     if acertou
         puts"Acertou!!!"
@@ -30,19 +31,20 @@ def verifica_se_acertou(numero_secreto, chute)
         maior = numero_secreto > chute
         if maior
             puts ("O número secreto é maior")
+            
         else
             puts ("O número secreto é menor")
+            
         end
-    false
-end
-
+        false
+end    
 
 da_boas_vindas
-numero_secreto = sorteia_numero_secreto
+numero_secreto = sorteio
+
 limite_de_tentativas = 5
 
 for tentativa in 1..limite_de_tentativas
-
     chute = pede_um_numero tentativa, limite_de_tentativas
     if verifica_se_acertou numero_secreto, chute
         break
