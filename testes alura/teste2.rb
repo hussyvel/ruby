@@ -17,3 +17,8 @@ puts chute
 for contador in 1..tentativa
     puts "Chute " + chutes[contador - 1].to_s
 end
+
+puts "con""cat""en""at""ion"
+puts "This string contains" " no newlines."
+
+6.times { print "Hussyvel"}
