@@ -1,3 +1,7 @@
-nome = "hussyvel"
-puts nome.capitalize!
-puts nome
+=begin
+    
+rescue => exception
+    
+=end
+puts "Oi mundo"
+#puts "Oi mundo"
