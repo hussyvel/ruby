@@ -1,37 +1,26 @@
+chutes = []
 
-puts "Bem vindo ao jogo da Adivinhação"
-puts "Qual seu nome ?"
-nome = gets 
-puts "\n\n"
-puts "Startando o jogo: " + nome
-puts "\n\n"
-numero_chutado = 88
-puts "Tente acertar o número adivinhado"
-puts "\n\n"
+chute = 88
+chutes << chute
 
-limite_de_tentativas =5
+chute = 100
+chutes << chute
 
-for tentativa in 1..limite_de_tentativas
-    puts "Tentativa " + tentativa.to_s +  " de " + limite_de_tentativas.to_s
-    puts "\n\n"
-    puts "Entre com o número"
-    puts "\n\n"
-    chute = gets
-    puts "Será que acertou? Você chutou " + chute.to_s 
-    puts "\n\n"
+chute = 200
+chutes << chute
 
 
-    acertou = numero_chutado == chute.to_i
-       
-    if acertou
-            puts "Acertou\n"
-            break
-            else
-        segundo_chute = numero_chutado > chute.to_i
-                if segundo_chute
-                    puts "O valor é maior \n"
-                else
-                    puts "O valor é menor \n"
-                end 
-        end
-end
+
+for chute in chutes 
+    puts chute
+end 
+
+puts chutes.size  
+
+=begin
+puts chute
+for contador in 0..(tentativa - 1)
+    puts "Chutes " + chutes[contador].to_s 
+end  
+=end
+
