@@ -1,3 +1,4 @@
+
 puts "Digite uma nota de 0 a 100: "
 
 nota = gets.chomp.to_i

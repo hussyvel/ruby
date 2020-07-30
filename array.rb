@@ -1,12 +1,12 @@
 chutes = []
 
-chute = 88
+chute = 50
 chutes << chute
 
-chute = 100
+chute = 150
 chutes << chute
 
-chute = 200
+chute = 300
 chutes << chute
 
 
