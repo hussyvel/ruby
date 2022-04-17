@@ -1,12 +1,13 @@
-class Carro
-    def ligar(motor)
-        puts motor
+class Pessoa
+    def gritar(texto)
+        puts "Coloque seu grito: #{texto}"
     end 
-    def andar(motor)
-        puts motor
-    end
+
+    def agradecer(cumprimento)
+        puts "Coloque seu cumprimento: #{cumprimento}"
+    end 
 end
 
-a = Carro.new
-a.ligar("hehehe")
-a.andar("hahhaha")
+objeto1 = Pessoa.new
+objeto1.gritar("aaaaaaaaaaaaaaa")
+objeto1.agradecer("seja bem vindo")
