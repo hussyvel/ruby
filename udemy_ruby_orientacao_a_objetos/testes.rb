@@ -1,13 +1,20 @@
 class Pessoa
-    def gritar(texto)
-        puts "Coloque seu grito: #{texto}"
-    end 
+    @nome = nil
+    @idade = nil
 
-    def agradecer(cumprimento)
-        puts "Coloque seu cumprimento: #{cumprimento}"
-    end 
+    def guardar_nome(nome)
+        @nome = nome
+    end
+
+    def gritar(texto)
+        puts "Gritando #{texto}"
+    end
+
+    def agradecer(grato)
+       puts "Muito obrigado em inglês é: #{grato}"
+    end
 end
 
-objeto1 = Pessoa.new
-objeto1.gritar("aaaaaaaaaaaaaaa")
-objeto1.agradecer("seja bem vindo")
+x = Pessoa.new
+x.gritar("aaaaaaa")
+x.agradecer("thanks")

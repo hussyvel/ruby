@@ -8,8 +8,8 @@ class Pessoa
     end
 end
 
-objeto = Pessoa.new
-puts objeto.gritar_alto("hahahahaha")
-puts objeto.agradecer_com_educacao("Você é muito gentil")
-result = objeto.agradecer_com_educacao("Você é muito gentil")
+obj1 = Pessoa.new
+
+obj1.gritar_alto("aaaaaaaaaaaa")
+result = obj1.agradecer_com_educacao("muito obrigado")
 puts result

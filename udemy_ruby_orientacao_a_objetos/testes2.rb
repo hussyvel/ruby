@@ -1,15 +1,27 @@
-class MyClass
-    def imprimir_ola(nome)
-        @nome = nome
-        puts "Olá tudo bem #{@nome}"
+class Pessoa
+    attr_accessor:nome
+    attr_accessor:idade
+
+    def gritar_alto(texto = "asdflçkjçlljkç")
+        "Gritando... #{texto}"
     end 
 
-    def nome 
-        @nome
+    def agradecer (texto = "Obrigado")
+        texto
     end
-end 
+end
+
+pessoa1 = Pessoa.new
+pessoa1.nome = "Hussyvel"
+pessoa1.idade = 33 
 
 
-objeto = MyClass.new
-objeto.imprimir_ola("hussyvel")
-objeto.nome
+pessoa2 = Pessoa.new
+pessoa2.nome = "João"
+pessoa2.idade = 0.009
+
+puts pessoa1.nome
+puts pessoa1.idade
+
+puts pessoa2.nome
+puts pessoa2.idade

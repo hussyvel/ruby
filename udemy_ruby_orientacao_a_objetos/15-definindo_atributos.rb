@@ -7,22 +7,22 @@ class Pessoa
         @idade = idade
     end
     
-    # @nome = nil
+    # @nome = nil #attr_reader
     # @idade = nil
 
-    # def nome=(nome)
+    # def nome=(nome) #attr_writter
     #     @nome = nome
     # end 
 
-    # def nome
+    # def nome #attr_reader
     #     @nome
     # end 
 
-    # def idade=(idade)
+    # def idade=(idade) #attr_writter
     #     @idade = idade
     # end 
 
-    # def idade
+    # def idade #attr_reader
     #     @idade
     # end
 end 
@@ -31,7 +31,7 @@ pessoa1 = Pessoa.new("Hussyvel",33)
 # pessoa1.nome = "Hussyvel"
 # pessoa1.idade = 33
 
-pessoa2 = Pessoa.new("João", 0.07)
+pessoa2 = Pessoa.new("João", 0.009)
 # pessoa2.nome = "João"
 # pessoa2.idade = 1
 
