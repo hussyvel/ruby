@@ -1,18 +1,33 @@
 class Cachorro
-    attr_accessor :raca
+    attr_reader :raca
     attr_accessor :nome
     
     def initialize(raca, nome)
         @raca = raca
         @nome = nome        
     end
-    def latir(grito)
-        puts "au au! #{grito}"        
+
+    def latir(latido = "au au")
+       latido      
     end
 end
 
-animal1 = Dog.new
-puts animal1 = latir("au au!")
+animal1 = Cachorro.new("Pitbull", "bla" )
+puts animal1.nome
 
-animal2 = Dog.new
-puts animal2 = latir("au au!")
+puts animal1.raca
+#animal1.raca = "picher"
+puts animal1.raca
+
+puts animal1.latir
+
+puts "-------------------------"
+
+animal2 = Cachorro.new("Rex", "Picher")
+puts animal2.nome
+
+puts animal2.raca
+#animal2.raca = "Pitbull"
+puts animal2.raca
+
+puts animal2.latir

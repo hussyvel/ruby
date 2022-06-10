@@ -40,3 +40,4 @@ puts pessoa1.idade
 
 puts pessoa2.nome
 puts pessoa2.idade
+
