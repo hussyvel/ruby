@@ -1,7 +1,7 @@
 def fizzbuzz(number)
 
     i = 1
-    while i < number
+    while i <= number
         
        if i % 15 == 0
             puts "FizzBuzz for #{i}"

@@ -1,9 +1,3 @@
-puts "Digite um número:"
+puts "Welcome to 'Get My Number!'"
 
-numero = gets.chomp
-
-unless numero >= 5
-    puts "numero é menor"
-else 
-    puts "numero é maior"
-end
+puts "What's your name? "
