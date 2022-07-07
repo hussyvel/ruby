@@ -1,26 +1,25 @@
-class Pato
+class Pato  
     def quack!
-        puts "Quack! Quack! Testes"
+        puts "Quack! Quack!"
     end
-end
-
+end 
 
 class PatoDoente
-    def quack!
-        puts "Queeeeeck!!!"
-    end
+    def quack!    
+        puts "Queeeee"
+    end 
 end
 
-class Animal
+class Pessoa
     def falar(pato)
         pato.quack!
-    end 
+    end
 end
 
 p1 = Pato.new
 p2 = PatoDoente.new
 
-p = Animal.new
+p = Pessoa.new
 
 puts p.falar(p1)
 puts p.falar(p2)

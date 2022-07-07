@@ -1,19 +1,18 @@
 class Teste
-    def Ola
+    def ola
         puts "Esse é um self #{self}"
     end
 end 
 
-
 class Teste1
-    def Ola
+    def self.ola
         puts "Esse é um self #{self}"
     end 
 end 
 
 first = Teste.new
-puts first
+puts first.ola
 
-second = Teste1.new
-puts second
+second = Teste1
+puts second.ola
 
