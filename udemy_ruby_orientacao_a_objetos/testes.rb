@@ -4,7 +4,6 @@ class Pato
     end
 end
 
-
 class PatoDoente
     def quack!
         puts "Queeeeeck!!!"
@@ -24,3 +23,4 @@ p = Animal.new
 
 puts p.falar(p1)
 puts p.falar(p2)
+
