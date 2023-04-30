@@ -6,7 +6,7 @@ end
 
 class Franqueado < Franquia
     def descricao
-        super
+        puts super
         "Franqueado!!!"
     end
 end
