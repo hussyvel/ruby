@@ -1,16 +1,5 @@
-print "Digite seu numero: "
-x = gets.chomp.to_i
-
-if x >= 18
-    puts "Pode entrar"
-elsif x < 18
-    puts "Não pode entrar"
-end
-
-puts "====================="
-
-
-y = 1
+puts "Digite um valor"
+y = gets.chomp.to_i
 
 unless y >= 2
     puts "y é menor que 2"

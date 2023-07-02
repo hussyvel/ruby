@@ -1,5 +1,5 @@
 if 1 != 2
-    puts 'a'    
-else
-    puts 'b'
+    puts 10 / 2 
+else 
+    puts "b"
 end
