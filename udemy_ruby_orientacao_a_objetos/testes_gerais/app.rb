@@ -1,8 +1,9 @@
-File.open('prog1.txt', 'r') do |arq|
-    
-    while line = arq.gets
-        puts line
-    end
+# frozen_string_literal: true
 
-    #arq.puts('Hussyvel', 'João', 'Ethan')
+File.open('prog1.txt', 'r') do |arq|
+  while (line = arq.gets)
+    puts line
+  end
+
+  # arq.puts('Hussyvel', 'João', 'Ethan')
 end

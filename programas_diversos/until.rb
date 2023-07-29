@@ -1,5 +1,4 @@
+# frozen_string_literal: true
+
 numero = 0
-until numero == 10 do
-    puts numero += 1
-    
-end
+puts numero += 1 until numero == 10

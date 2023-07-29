@@ -1,5 +1,7 @@
-h = {a: "88"}
+# frozen_string_literal: true
 
-puts h 
+h = { a: '88' }
 
-#simbolos são usados quando naõ se quer alterar/mudar/manipular a string e muito parecido com json
+puts h
+
+# simbolos são usados quando naõ se quer alterar/mudar/manipular a string e muito parecido com json

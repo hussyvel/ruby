@@ -1,10 +1,11 @@
-a = [1,5,6,9,8]
+# frozen_string_literal: true
 
+a = [1, 5, 6, 9, 8]
 
-a.each do |item|
-    puts a.sort()
-    break
-end 
+a.each do |_item|
+  puts a.sort
+  break
+end
 
 # a = Array.new
 
@@ -14,11 +15,11 @@ end
 # a.push(4)
 # puts a
 
-v = [1,3,5,6,7,9]
+v = [1, 3, 5, 6, 7, 9]
 v.each do |item|
-    puts item
+  puts item
 end
 
-v1 = "Hussyvel"
+v1 = 'Hussyvel'
 
 puts v1[4]

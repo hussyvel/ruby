@@ -1,2 +1,3 @@
-puts " Hussyvel Ribeiro ".strip!
+# frozen_string_literal: true
 
+puts ' Hussyvel Ribeiro '.strip!

@@ -1,10 +1,10 @@
-password = "dominoes"
+# frozen_string_literal: true
 
-#unless password == "whiskers"
-unless password.include?("domin")
-    puts "Not allowed!"
+password = 'dominoes'
+
+# unless password == "whiskers"
+if password.include?('domin')
+  puts "That's the right password, welcome"
 else
-    puts "That's the right password, welcome"
+  puts 'Not allowed!'
 end
-
-

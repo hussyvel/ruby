@@ -1,6 +1,8 @@
-puts "Digite um valor"
+# frozen_string_literal: true
+
+puts 'Digite um valor'
 a = gets.chomp.to_i
-puts "Digite outro valor"
+puts 'Digite outro valor'
 b = gets.chomp.to_i
 puts "Calculando a soma entre #{a} e #{b}"
 puts "O resultado da soma é #{a + b}"
@@ -15,4 +17,4 @@ puts "Calculando a divisão entre #{a} e #{b}"
 puts "O resultado da divisão é #{a / b}"
 puts "\n\n"
 puts "Calculando a potentially entre #{a} e #{b}"
-puts "O resultado da potentially é #{a ** b}"
+puts "O resultado da potentially é #{a**b}"

@@ -1,3 +1,5 @@
-h = {"livro" => "biblia", "carro" =>"Hilux", "suco" => "graviola"}
+# frozen_string_literal: true
 
-puts h["carro"]
+h = { 'livro' => 'biblia', 'carro' => 'Hilux', 'suco' => 'graviola' }
+
+puts h['carro']

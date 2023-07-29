@@ -1,11 +1,13 @@
+# frozen_string_literal: true
+
 p 1 + 2
 p 1.+(2)
 
-puts 
+puts
 
 p 10 - 5
 p 10.-(5)
-p 10.- 5 
+p 10.- 5
 
 puts
 
@@ -22,8 +24,8 @@ p 10.div(5)
 
 puts
 
-p 1.next()
-p 1.pred()
+p 1.next
+p 1.pred
 
 p 1 + 2
 p 10 - 5

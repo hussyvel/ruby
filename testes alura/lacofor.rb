@@ -1,3 +1,5 @@
-for dedos in 1..3
-    puts ("Contando de 1 até ") + dedos.to_s
+# frozen_string_literal: true
+
+(1..3).each do |dedos|
+  puts "Contando de 1 até #{dedos}"
 end

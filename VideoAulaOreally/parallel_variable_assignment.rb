@@ -1,8 +1,10 @@
+# frozen_string_literal: true
+
 a = 1
 b = 2
 
 p a, b
 
-a ,b = b, a 
+a, b = b, a
 
-p a, b   
+p a, b

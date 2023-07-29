@@ -1,14 +1,12 @@
-#Jogo "Adivinhe meu número"
-#Escrito por: você!
+# frozen_string_literal: true
 
-puts "Seja bem vindo ao jogo da adivinhação "
+# Jogo "Adivinhe meu número"
+# Escrito por: você!
 
-puts "Digite seu nome: "
+puts 'Seja bem vindo ao jogo da adivinhação '
+
+puts 'Digite seu nome: '
 input = gets
 
 puts "O nome é #{input}"
 puts input.inspect.upcase.reverse
-
-
-
-

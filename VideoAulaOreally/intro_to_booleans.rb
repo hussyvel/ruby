@@ -1,6 +1,6 @@
-p 5 != 5.0.to_i.class
+# frozen_string_literal: true
 
-age = 33
+p 5.0.to_i.class != 5
 
 handsome = true
 

@@ -1,12 +1,13 @@
-a = [1,5,6,9,8]
+# frozen_string_literal: true
 
+a = [1, 5, 6, 9, 8]
 
-a.each do |item|
-    puts a.sort()
-    break
-end 
+a.each do |_item|
+  puts a.sort
+  break
+end
 
-puts "-------------"
+puts '-------------'
 # a = Array.new
 
 # a.push(1)
@@ -15,21 +16,17 @@ puts "-------------"
 # a.push(4)
 # puts a
 
-v = [1,3,5,6,7,9]
+v = [1, 3, 5, 6, 7, 9]
 v.each do |item|
-    puts item
+  puts item
 end
 
+puts '------------'
 
-puts "------------"
-
-
-
-v =[[11,12,13],[21,22,23],[31,32,33]]
+v = [[11, 12, 13], [21, 22, 23], [31, 32, 33]]
 
 v.each do |externo|
-    externo.each do |elemento|
-        puts elemento
-    end
+  externo.each do |elemento|
+    puts elemento
+  end
 end
-

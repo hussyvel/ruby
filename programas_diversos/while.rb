@@ -1,5 +1,5 @@
+# frozen_string_literal: true
+
 contador = 0
 
-while contador < 9 do
-    puts contador += 1
-end
+puts contador += 1 while contador < 9

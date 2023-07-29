@@ -1,3 +1,5 @@
-for contador in 0..10 do 
-    puts contador
+# frozen_string_literal: true
+
+11.times do |contador|
+  puts contador
 end

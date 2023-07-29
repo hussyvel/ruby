@@ -1,4 +1,6 @@
-story = "A imaginação é mais importante que o Conhecimento"
+# frozen_string_literal: true
+
+story = 'A imaginação é mais importante que o Conhecimento'
 
 p story.length
 

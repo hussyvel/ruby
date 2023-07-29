@@ -1,35 +1,19 @@
-if 1 == 1
-    print "é igual\n"
-end
+# frozen_string_literal: true
 
-if !false
-    puts "imprimir se for falso"
-end
+print "é igual\n" if 1 == 1
 
-if 2 != 2
-    puts "I won't be printed"
-end
+puts 'imprimir se for falso' unless false
 
-if not true
-    puts "I will"
-end
+puts "I won't be printed" if 2 != 2
 
-if not false
-    puts "não é falso"
-end
+puts 'I will' unless true
 
-if true && true
-    puts "I won't"
-end 
+puts 'não é falso' unless false
 
-if true && false
-    puts "Verdadeiro e falso"
-end
+puts "I won't" if true && true
 
-if false || true
-    puts "É para imprimir os dois"
-end
+puts 'Verdadeiro e falso' if true && false
 
-if false || false
-    puts "Não é para imprimir os dois"
-end
+puts 'É para imprimir os dois' if false || true
+
+puts 'Não é para imprimir os dois' if false || false

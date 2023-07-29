@@ -1,10 +1,12 @@
-puts "Enter a color: "
+# frozen_string_literal: true
+
+puts 'Enter a color: '
 color = gets.chomp
 
-puts "Enter a plural noun: "
+puts 'Enter a plural noun: '
 plural_noun = gets.chomp
 
-puts "Enter a celebrity: "
+puts 'Enter a celebrity: '
 celebrity = gets.chomp
 
 puts "Rosas são #{color}"
@@ -12,5 +14,3 @@ puts "Rosas são #{color}"
 puts "#{plural_noun} são azuis"
 
 puts "Eu amo #{celebrity}"
-
-

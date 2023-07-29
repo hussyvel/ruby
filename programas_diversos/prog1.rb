@@ -1,8 +1,10 @@
+# frozen_string_literal: true
+
 puts 'Digite um número'
 x = gets.chomp.to_i
 
-unless x >= 2 
-    puts 'x é menor que 2'
+if x >= 2
+  puts 'o valor é maior'
 else
-    puts 'o valor é maior'
+  puts 'x é menor que 2'
 end

@@ -1,9 +1,11 @@
-puts "Digite um número:"
+# frozen_string_literal: true
+
+puts 'Digite um número:'
 
 numero = gets.chomp
 
-unless numero >= 5
-    puts "numero é menor"
-else 
-    puts "numero é maior"
+if numero >= 5
+  puts 'numero é maior'
+else
+  puts 'numero é menor'
 end

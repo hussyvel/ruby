@@ -1,11 +1,13 @@
-puts "content".empty?
+# frozen_string_literal: true
 
-puts "content".nil?
+puts 'content'.empty?
 
-name = "Hussyvel Ribeiro"
+puts 'content'.nil?
 
-last_name = name[100, 4]
+name = 'Hussyvel Ribeiro'
 
-last_name = "Ribeiro"
+name[100, 4]
+
+last_name = 'Ribeiro'
 
 puts last_name.nil?

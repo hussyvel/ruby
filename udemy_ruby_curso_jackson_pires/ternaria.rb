@@ -1,18 +1,19 @@
-#o jeito normal
+# frozen_string_literal: true
 
-sexo = "M"
+# o jeito normal
 
-if sexo == "M"
-    puts "Masculino"
+sexo = 'M'
+
+if sexo == 'M'
+  puts 'Masculino'
 else
-    puts "Feminino"
+  puts 'Feminino'
 end
 
-#com ternário
+# com ternário
 
-puts (sexo == "M" ? "Masculino" : "Feminino")
+puts(sexo == 'M' ? 'Masculino' : 'Feminino')
 
+# outra forma ternário
 
-#outra forma ternário
-
-sexo == "M" ? (puts "Masculino") : (puts "Feminino")
+sexo == 'M' ? (puts 'Masculino') : (puts 'Feminino')

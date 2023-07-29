@@ -1,8 +1,10 @@
-puts "Qual é o seu nome ?"
+# frozen_string_literal: true
+
+puts 'Qual é o seu nome ?'
 
 name = gets.chomp
 
-puts "Qual a sua idade?"
+puts 'Qual a sua idade?'
 
 age = gets.chomp
 

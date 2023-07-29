@@ -1,10 +1,11 @@
-module A
-    
-    def a1
-        puts "a1"
-    end 
+# frozen_string_literal: true
 
-    def a2
-        puts "a2"
-    end
+module A
+  def a1
+    puts 'a1'
+  end
+
+  def a2
+    puts 'a2'
+  end
 end

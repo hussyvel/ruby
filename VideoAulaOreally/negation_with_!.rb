@@ -1,11 +1,13 @@
-p !!""
+# frozen_string_literal: true
 
-p !!"Spaceship"
+p !''.nil?
 
-p !!1
+p !'Spaceship'.nil?
 
-p !!3.14
+p !1.nil?
 
-p !!false
+p !3.14.nil?
 
-p !!nil
+p !false.nil?
+
+p !nil.nil?

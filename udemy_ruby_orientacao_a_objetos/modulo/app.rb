@@ -1,31 +1,24 @@
-require_relative 'pagamento' 
+# frozen_string_literal: true
+
+require_relative 'pagamento'
 
 include Pagamento
 
-p = Pagamento::Visa.new #Trabalhando com Classes
+p = Pagamento::Visa.new # Trabalhando com Classes
 puts p.pagando
 
-l = Carro::new
+l = Carro.new
 puts l.ligar
 
-puts PI #trabalhando com Constantes
+puts PI # trabalhando com Constantes
 
+puts 'Coloque a sua bandeira:'
+b = gets.chomp
 
-puts "Coloque a sua bandeira:"
-b = gets.chomp 
-
-puts "Coloque o número do cartão:"
+puts 'Coloque o número do cartão:'
 n = gets.chomp
 
-puts "Coloque o valor do cartão:"
+puts 'Coloque o valor do cartão:'
 v = gets.chomp
 
-puts Pagamento.cartao(b, n, v) #Trabalhando com métodos
-
-
-
-
-
-
-
-
+puts Pagamento.cartao(b, n, v) # Trabalhando com métodos

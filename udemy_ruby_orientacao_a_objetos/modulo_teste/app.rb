@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'pagamento'
 
 include Pagamento
@@ -10,13 +12,13 @@ puts p.pagando
 p = Pagamento::Teste.new
 puts p.teste
 
-puts "A Bandeira do cartão é: "
+puts 'A Bandeira do cartão é: '
 b = gets.chomp
 
-puts "O número do cartão é: "
+puts 'O número do cartão é: '
 n = gets.chomp
 
-puts "O valor do cartão é: "
+puts 'O valor do cartão é: '
 v = gets.chomp
 
 puts Pagamento.cartao(b, n, v)

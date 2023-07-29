@@ -1,9 +1,11 @@
-puts x = 8
+# frozen_string_literal: true
+
+puts 8
 
 def oi
-    puts "olá tudo bem?"
+  puts 'olá tudo bem?'
 end
 
 puts oi
 
-puts x = 10
+puts 10

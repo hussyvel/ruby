@@ -1,4 +1,6 @@
-puts "Digite seu nome"
+# frozen_string_literal: true
+
+puts 'Digite seu nome'
 
 input = gets
 

@@ -1,17 +1,19 @@
-class Carro    
+# frozen_string_literal: true
+
+class Carro
 end
 
 novo_carro = Carro.new
 puts "Variavel do carro: #{novo_carro}"
 
-a = "HUSSYVEL"
-b = a 
+a = 'HUSSYVEL'
+b = a
 
 b.downcase!
-puts a 
+puts a
 
 c = a.clone
 
 c.upcase!
-puts c  
-puts a 
+puts c
+puts a

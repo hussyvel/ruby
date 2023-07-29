@@ -1,6 +1,8 @@
-str = "5.8"
+# frozen_string_literal: true
+
+str = '5.8'
 p str
-p str.class 
+p str.class
 
 p str.to_i.class
 p str.to_f.class
@@ -12,7 +14,3 @@ p number.class
 p number.to_s.class
 p number.to_f.class
 p number.to_f
-
-
-
-

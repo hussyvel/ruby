@@ -1,21 +1,23 @@
-#usando o método capitalize obs:poe em caixa alta a primeira letra
+# frozen_string_literal: true
 
-puts "hussyvel".capitalize.class  
-puts "hussyvel!@".capitalize.class  
-puts "hussyvel ribeiro".capitalize.class  
+# usando o método capitalize obs:poe em caixa alta a primeira letra
 
-#usando o método upcase poe toda a string maiuscula
+puts 'hussyvel'.capitalize.class
+puts 'hussyvel!@'.capitalize.class
+puts 'hussyvel ribeiro'.capitalize.class
 
-puts "hussyvel".upcase
+# usando o método upcase poe toda a string maiuscula
 
-nome = "ribeiro"
+puts 'hussyvel'.upcase
+
+nome = 'ribeiro'
 
 p nome
 
-#usando o método downcase poe toda a string minuscula 
+# usando o método downcase poe toda a string minuscula
 
-puts "MINÚSCULO".downcase
+puts 'MINÚSCULO'.downcase
 
-letra = "LETRA MAIUSCULA".downcase
+letra = 'LETRA MAIUSCULA'.downcase
 
 p letra

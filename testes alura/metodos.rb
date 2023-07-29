@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 letras = 'aAbBcCdDeE'
 
 puts letras.upcase

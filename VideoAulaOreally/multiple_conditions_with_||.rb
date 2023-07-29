@@ -1,7 +1,7 @@
+# frozen_string_literal: true
+
 budget = 10
 price = 8
-mood = "Happy"
+mood = 'Happy'
 
-if budget > price || mood == "Happy"
-    puts "I'm going to buy the item!"
-end
+puts "I'm going to buy the item!" if budget > price || mood == 'Happy'

@@ -1,15 +1,15 @@
+# frozen_string_literal: true
+
 i = 1
 
- while i < 10
-     puts i   
-     i += 1
- end 
-
-=begin
-    
-until i > 9
-    puts i   
-    i += 1    
+while i < 10
+  puts i
+  i += 1
 end
 
-=end
+#
+# until i > 9
+#     puts i
+#     i += 1
+# end
+#

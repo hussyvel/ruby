@@ -1,9 +1,11 @@
-puts "Digite sua idade:"
+# frozen_string_literal: true
+
+puts 'Digite sua idade:'
 
 idade = gets.chomp.to_i
 
 if idade >= 18
-    puts "Você é maior de idade"
+  puts 'Você é maior de idade'
 else
-    puts "Você é menor de idade"
-end 
+  puts 'Você é menor de idade'
+end

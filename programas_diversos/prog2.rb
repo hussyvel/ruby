@@ -1,12 +1,14 @@
-# Jogo da adinhação 
+# frozen_string_literal: true
 
-puts "Seja bem vindo ao Jogo"
+# Jogo da adinhação
 
-print "Qual é o seu nome ?"
+puts 'Seja bem vindo ao Jogo'
 
-input = gets 
+print 'Qual é o seu nome ?'
+
+input = gets
 nome = input.chomp
 
 puts "Seja bem vindo #{nome}"
 
-numero = rand(100)+1
+rand(1..100)

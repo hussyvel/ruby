@@ -1,1 +1,3 @@
-puts "hussyvel".upcase.reverse.downcase
+# frozen_string_literal: true
+
+puts 'hussyvel'.upcase.reverse.downcase

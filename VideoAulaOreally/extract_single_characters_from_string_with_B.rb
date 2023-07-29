@@ -1,4 +1,6 @@
-story = "No princípio criou Deus, os céus e a terra"
+# frozen_string_literal: true
+
+story = 'No princípio criou Deus, os céus e a terra'
 
 p story.length
 

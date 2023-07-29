@@ -1,23 +1,24 @@
-class Pai
-    attr_accessor :nome
+# frozen_string_literal: true
 
-    def falar(texto = "hi, right?")
-        texto
-    end 
+class Pai
+  attr_accessor :nome
+
+  def falar(texto = 'hi, right?')
+    texto
+  end
 end
 
 class Filha < Pai
-
 end
 
 p = Pai.new
-p.nome ="Hussyvel"
+p.nome = 'Hussyvel'
 puts p.nome
 puts p.falar
 
-puts "--------------------"
+puts '--------------------'
 
 f = Filha.new
-f.nome = "João"
+f.nome = 'João'
 puts f.nome
-puts f.falar("Hello!!!")
+puts f.falar('Hello!!!')

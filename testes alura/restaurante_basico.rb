@@ -1,9 +1,9 @@
-puts "Digite o nome do restaurante"
+# frozen_string_literal: true
+
+puts 'Digite o nome do restaurante'
 nome = gets
-print "Nome do restaurante: "
+print 'Nome do restaurante: '
 puts nome
-=begin
-    
-rescue => exception
-    
-=end
+#
+# rescue => exception
+#
